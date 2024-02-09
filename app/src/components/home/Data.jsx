@@ -57,7 +57,7 @@ const Data = () => {
                 </span>
             </h1>
             <h3 className="home__subtitle">ML Engineer</h3>
-            <p className="home__description">Привет, я ML Engineer из Санкт-Петербурга, и я только начинаю свой захватывающий путь в области машинного обучения.
+            <p className="home__description">Hi, I'm a ML Engineer from St. Petersburg and I'm just starting my exciting journey in machine learning.
             </p>
 
             <a href="#contact" className="button button--flex">
