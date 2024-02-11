@@ -1,3 +1,7 @@
 {
-    "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "EditorConfig.EditorConfig",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 10,
+  "editor.stickyTabStops": false
 }
