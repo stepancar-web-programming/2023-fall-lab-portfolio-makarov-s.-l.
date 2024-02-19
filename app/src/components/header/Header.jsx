@@ -7,6 +7,7 @@ const Header = () => {
     const [Toggle, showMenu] = useState(false);
 
     return (
+
         <header className="header">
             <nav className="nav container">
                 <a href="index.html" className="nav__logo">Makarov</a>
@@ -59,6 +60,8 @@ const Header = () => {
                 </div>
             </nav>
         </header>
+
+
     )
 }
 
