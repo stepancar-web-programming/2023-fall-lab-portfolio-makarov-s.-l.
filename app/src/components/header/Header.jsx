@@ -7,6 +7,7 @@ const Header = () => {
     const [Toggle, showMenu] = useState(false);
 
     return (
+
         <header className="header">
             <nav className="nav container">
                 <a href="index.html" className="nav__logo">Makarov</a>
@@ -44,13 +45,13 @@ const Header = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#scontact" className="nav__link">
-                                <i className="uil uil-message nav__icon"></i> Contact
+                            <a href="#testimonials" className="nav__link">
+                                <i className="uil uil-message nav__icon"></i> Testimonials
                             </a>
                         </li>
                     </ul>
 
-                    <i class="uil uil-times nav__close"onClick={() => showMenu(!Toggle)}></i>
+                    <i class="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
 
                 </div>
 
@@ -59,6 +60,8 @@ const Header = () => {
                 </div>
             </nav>
         </header>
+
+
     )
 }
 

@@ -5,6 +5,7 @@
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .nav {
@@ -37,7 +38,7 @@
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .nav__icon,
@@ -107,7 +108,6 @@
     .nav__toggle {
         font-size: 1.1rem;
         cursor: pointer;
-
     }
 
     .nav__icon,
@@ -115,7 +115,6 @@
     .nav__toggle {
         display: block;
     }
-
 }
 
 /* For small devices */
