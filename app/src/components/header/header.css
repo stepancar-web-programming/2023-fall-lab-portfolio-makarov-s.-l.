@@ -39,6 +39,13 @@
     color: var(--title-color);
     font-weight: var(--font-medium);
     transition: 0.3s;
+    padding: 5px;
+}
+
+.nav__link-portfolio {
+    color: var(--body-color);
+    background-color: var(--title-color);
+    border-radius: 5px;
 }
 
 .nav__icon,
@@ -52,6 +59,11 @@
 .active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
+}
+
+.nav__link-portfolio:hover {
+    color: var(--body-color);
+    background-color: black;
 }
 
 /*=============== BREAKPOINTS ===============*/
