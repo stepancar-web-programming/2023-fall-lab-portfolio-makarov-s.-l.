@@ -14,7 +14,7 @@ const Header = () => {
                     </li>
                     <li className="nav-item">
                         <a href="/about-lessons" className="nav-link">
-                            О занятих
+                            О занятиях
                         </a>
                     </li>
                     <li className="nav-item">
