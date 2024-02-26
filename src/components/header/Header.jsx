@@ -1,9 +1,11 @@
 import React from "react";
+import "./header.css"
 
 const Header = () => {
     return (
-        <header className="header" style={{ backdropFilter: "blur(5px)" }}>
-            <nav className="container">
+        <header className="header">
+            <nav className="container header-container">
+                <p className="brand-text"><i class="fi fi-sr-graduation-cap"></i>  makaroveo</p>
                 <ul className="nav-list">
                     <li className="nav-item">
                         <a href="/" className="nav-link">
