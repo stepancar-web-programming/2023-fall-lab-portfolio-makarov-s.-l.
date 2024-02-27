@@ -1,3 +1,7 @@
+.aboutMe-section {
+    margin-top: 3rem;
+}
+
 .aboutMe-container {
     display: flex;
     justify-content: center;
@@ -21,7 +25,8 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 30px;
+    padding: 0 30px;
+    height: 100%;
 }
 
 .aboutMe-name {
@@ -64,6 +69,7 @@
 @media screen and (max-width: 676px) {
     .aboutMe-img {
         width: 200px;
+        margin-bottom: 10px;
     }
     .aboutMe-container {
         flex-direction: column;
