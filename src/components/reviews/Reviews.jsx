@@ -49,7 +49,7 @@ const Reviews = () => {
 
                     <div className="review-card-container">
                         <div className="review-card">
-                            <h3 className="review-person_name">Иванов Иван</h3>
+                            <h3 className="review-person_name">Башарим Евгенов</h3>
                             <div className="review-person-container">
                                 <img src="review3.jpg" className="review-image" />
                                 <p className="review-text">Я могу с уверенностью рекомендовать Семена в качестве репетитора по ЕГЭ. Он делает приятным как процесс обучения, так и подготовку к экзаменам. Его четкие объяснения помогли мне улучшить свои оценки</p>

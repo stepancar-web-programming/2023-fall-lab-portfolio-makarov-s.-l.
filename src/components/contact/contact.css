@@ -1,6 +1,7 @@
 .contact-section {
     margin-top: 3rem;
     text-align: center;
+    min-height: calc(100vh - 96.8px - 48px);
 }
 
 .contact-container {
