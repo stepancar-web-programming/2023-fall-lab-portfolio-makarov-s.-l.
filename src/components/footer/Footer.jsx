@@ -8,19 +8,19 @@ const Footer = () => {
                 <p className="created-by">© created by Makarov Semen</p>
                 <ul className="footer-list">
                     <li className="footer-item">
-                        <a href="/" className="footer-link">
+                        <a href="https://vk.com/makaroveo" className="footer-link">
                             <i class="fi fi-brands-vk footer-icon"></i>
                         </a>
                     </li>
 
                     <li className="footer-item">
-                        <a href="/" className="footer-link">
+                        <a href="https://t.me/makaroveo" className="footer-link">
                             <i class="fi fi-brands-telegram footer-icon"></i>
                         </a>
                     </li>
 
                     <li className="footer-item">
-                        <a href="/" className="footer-link">
+                        <a href="https://github.com/semonmakarov" className="footer-link">
                             <i class="fi fi-brands-github footer-icon"></i>
                         </a>
                     </li>

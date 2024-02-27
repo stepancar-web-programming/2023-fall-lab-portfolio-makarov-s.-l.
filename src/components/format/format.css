@@ -34,6 +34,8 @@
 }
 .advantages-list {
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .advantage-item {
