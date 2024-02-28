@@ -1,0 +1,69 @@
+.slick-slider {
+    margin: 0 -20px;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.review-card-container {
+    padding: 0 10px;
+    display: flex;
+    justify-self: stretch;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: nowrap;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+}
+.review-person_name {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+.review-person-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-image {
+    width: 140px;
+    object-fit: cover;
+    border-radius: 20px;
+
+    margin: auto;
+    margin-right: 10px;
+}
+
+.review-text {
+    padding: 0 15px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 992px) {
+    .review-image {
+        width: 120px;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 676px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}
