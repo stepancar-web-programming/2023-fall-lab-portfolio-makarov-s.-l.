@@ -8,8 +8,8 @@ const Contact = () => {
             <div className="container contact-container">
                 <div className="contact-info">
                     <h3>Свяжитесь со мной:</h3>
-                    <p>Телефон: +7 (933) 200-1407</p>
-                    <p>Email: semon.makarov.2003@mail.ru</p>
+                    <p>Телефон: <a href="tel:+79332001407">+7 (933) 200-1407</a></p>
+                    <p>Email: <a href="mailto:semon.makarov.2003@mail.ru">semon.makarov.2003@mail.ru</a></p>
                 </div>
 
                 <div className="social-links">
