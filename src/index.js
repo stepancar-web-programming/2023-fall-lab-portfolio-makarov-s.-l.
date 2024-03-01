@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./specificStyles.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import MainPage from "./Pages/MainPage";

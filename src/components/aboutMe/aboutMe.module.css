@@ -1,27 +1,29 @@
-.aboutMe-section {
+.aboutMeSection {
     margin-top: 3rem;
+    composes: section from "../../specificStyles.css";
 }
 
-.aboutMe-container {
+.aboutMeContainer {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    composes: container from "../../specificStyles.css";
 }
 
-.fi-sr-chalkboard-user {
+.aboutMeTitleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.teacherIcon {
     font-size: 40px;
     margin-right: 20px;
     color: rgba(241, 66, 66, 0.8);
 }
 
-.aboutMe-title-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.aboutMe-information {
+.aboutMeInformation {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -29,11 +31,11 @@
     height: 100%;
 }
 
-.aboutMe-name {
+.aboutMeName {
     border-bottom: 2px solid black;
 }
 
-.aboutMe-title {
+.aboutMeTitle {
     margin-bottom: 20px;
     text-align: left;
     color: rgba(0, 0, 0, 0.5);
@@ -41,7 +43,7 @@
     font-size: 18px;
 }
 
-.aboutMe-img {
+.aboutMeImg {
     width: 250px;
     height: auto;
     border-radius: 30px;
@@ -55,26 +57,26 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-    .aboutMe-section {
+    .aboutMeSection {
         margin-top: 2rem;
     }
     .fi-sr-chalkboard-user {
         font-size: 30px;
     }
-    .aboutMe-name {
+    .aboutMeName {
         font-size: 24px;
     }
-    .aboutMe-title {
+    .aboutMeTitle {
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 676px) {
-    .aboutMe-img {
+    .aboutMeImg {
         width: 200px;
         margin-bottom: 10px;
     }
-    .aboutMe-container {
+    .aboutMeContainer {
         flex-direction: column;
     }
 }
@@ -84,10 +86,10 @@
     .fi-sr-chalkboard-user {
         font-size: 20px;
     }
-    .aboutMe-name {
+    .aboutMeName {
         font-size: 20px;
     }
-    .aboutMe-title {
+    .aboutMeTitle {
         font-size: 14px;
     }
     p {
