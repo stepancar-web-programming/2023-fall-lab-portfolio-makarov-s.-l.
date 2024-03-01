@@ -1,24 +1,25 @@
 import React from "react";
-import "./header.css"
+import styles from "./header.module.css";
 
 const Header = () => {
     return (
-        <header className="header">
-            <nav className="container header-container">
-                <p className="brand-text"><i class="fi fi-sr-graduation-cap"></i>  makaroveo</p>
-                <ul className="nav-list">
-                    <li className="nav-item">
-                        <a href="/" className="nav-link">
+        <header className={styles.header}>
+            {/* Попробовал добавить свойство по-другому, внутри файла jsx */}
+            <nav className={`${styles.headerContainer} container`}>
+                <p className={styles.brandText}><i className="fi fi-sr-graduation-cap"></i>  makaroveo</p>
+                <ul className={styles.navList}>
+                    <li className={styles.navItem}>
+                        <a href="/" className={styles.navLink}>
                             Главная
                         </a>
                     </li>
-                    <li className="nav-item">
-                        <a href="/about-lessons" className="nav-link">
+                    <li className={styles.navItem}>
+                        <a href="/about-lessons" className={styles.navLink}>
                             О занятиях
                         </a>
                     </li>
-                    <li className="nav-item">
-                        <a href="/contacts" className="nav-link">
+                    <li className={styles.navItem}>
+                        <a href="/contacts" className={styles.navLink}>
                             Контакты
                         </a>
                     </li>

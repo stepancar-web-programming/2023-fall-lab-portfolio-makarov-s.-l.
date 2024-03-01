@@ -1,25 +1,38 @@
-.footer-container {
+.footer {
+    background-color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footerContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    composes: container from "../../specificStyles.css";
 }
 
-.footer-list {
+.footerList {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 30px;
 }
 
-.footer-link {
+.footerLink {
     color: rgba(0, 0, 0, 0.5);
     font-size: 30px;
     margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
 
-.footer-link:hover {
+.footerLink:hover {
     color: rgba(0, 0, 0, 1);
+}
+
+.createdBy {
+    margin: 0;
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -32,13 +45,13 @@
 }
 
 @media screen and (max-width: 576px) {
-    .footer-container {
+    .footerContainer {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    .created-by {
+    .createdBy {
         margin-bottom: 30px;
     }
 }

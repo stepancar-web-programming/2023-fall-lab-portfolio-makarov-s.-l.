@@ -1,17 +1,22 @@
-.format-section {
+/* Специфические стили */
+.formatSection {
     margin-top: 3rem;
+    composes: section from "../../specificStyles.css";
 }
 
-.format-container {
+.container {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    composes: container from "../../specificStyles.css";
 }
-.video-bg {
+
+.videoBg {
     width: 450px;
     margin-right: 15px;
     border-radius: 20px;
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -20,25 +25,28 @@
         opacity: 1;
     }
 }
-.format-information-container {
+
+.formatInformationContainer {
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 500px;
 }
-.format-information-text {
+
+.formatInformationText {
     font-size: 20px;
     color: rgba(0, 0, 0, 1);
     font-weight: 700;
     margin-bottom: 15px;
 }
-.advantages-list {
+
+.advantagesList {
     padding: 0;
     display: flex;
     flex-direction: column;
 }
 
-.advantage-item {
+.advantageItem {
     color: rgba(0, 0, 0, 0.9);
     opacity: 0;
     animation: fadeIn 0.5s ease-in-out forwards;
@@ -52,61 +60,70 @@
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-    .video-bg {
+    .videoBg {
         width: 380px;
     }
-    .format-information-text {
+
+    .formatInformationText {
         font-size: 16px;
     }
-    .advantage-item {
+
+    .advantageItem {
         font-size: 14px;
     }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-    .format-section {
+    .formatSection {
         margin-top: 2rem;
     }
-    .format-container {
+
+    .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .video-bg {
+
+    .videoBg {
         width: 450px;
         margin: 0;
         margin-bottom: 10px;
     }
-    .format-information-text {
+
+    .formatInformationText {
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .video-bg {
+    .videoBg {
         width: 330px;
         margin-bottom: 10px;
     }
-    .format-information-container {
+
+    .formatInformationContainer {
         width: 330px;
     }
-    .format-information-text {
+
+    .formatInformationText {
         font-size: 16px;
     }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-    .video-bg {
+    .videoBg {
         width: 280px;
         margin-bottom: 10px;
     }
-    .format-information-container {
+
+    .formatInformationContainer {
         width: 280px;
     }
-    .format-information-text {
+
+    .formatInformationText {
         font-size: 16px;
     }
 }
