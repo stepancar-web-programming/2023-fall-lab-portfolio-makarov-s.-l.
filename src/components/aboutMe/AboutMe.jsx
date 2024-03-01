@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div className="section aboutMe-section">
             <div className="section-title">Обо мне</div>
             <div className="container aboutMe-container">
-                <img src="aboutMe.jpg" className="aboutMe-img" />
+                <img src="aboutMe.jpg" alt="Макаров Семён" className="aboutMe-img" />
                 <div className="aboutMe-information">
                     <div className="aboutMe-title-container">
                         <i class="fi fi-sr-chalkboard-user"></i>

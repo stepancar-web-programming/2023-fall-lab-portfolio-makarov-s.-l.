@@ -40,7 +40,7 @@ const Reviews = () => {
                         <div className="review-card">
                             <h3 className="review-person_name">Никита Владимиров</h3>
                             <div className="review-person-container">
-                                <img src="review1.jpg" className="review-image" />
+                                <img src="review1.jpg" alt="review1" className="review-image" />
                                 <p className="review-text">Семен - волшебник в подготовке к ЕГЭ! Его опыт и индивидуальный подход помогли мне не только освоить сложные темы, но и научиться стратегиям успешной сдачи экзамена. Я очень ценю его профессионализм и терпение.</p>
                             </div>
 
@@ -51,7 +51,7 @@ const Reviews = () => {
                         <div className="review-card">
                             <h3 className="review-person_name">Башарим Евгенов</h3>
                             <div className="review-person-container">
-                                <img src="review3.jpg" className="review-image" />
+                                <img src="review3.jpg" alt="review3" className="review-image" />
                                 <p className="review-text">Я могу с уверенностью рекомендовать Семена в качестве репетитора по ЕГЭ. Он делает приятным как процесс обучения, так и подготовку к экзаменам. Его четкие объяснения помогли мне улучшить свои оценки</p>
                             </div>
 
@@ -62,7 +62,7 @@ const Reviews = () => {
                         <div className="review-card">
                             <h3 className="review-person_name">Егор Балакшин</h3>
                             <div className="review-person-container">
-                                <img src="review4.jpg" className="review-image" />
+                                <img src="review4.jpg" alt="review4" className="review-image" />
                                 <p className="review-text">Семен - настоящий спаситель в мире тестов и экзаменов. С ним подготовка превращается в интересное и продуктивное занятие. Благодаря его поддержке я не только поняла материал, но и получила отличные оценки.</p>
                             </div>
 
@@ -73,7 +73,7 @@ const Reviews = () => {
                         <div className="review-card">
                             <h3 className="review-person_name">Ангелина Романова</h3>
                             <div className="review-person-container">
-                                <img src="review2.jpg" className="review-image" />
+                                <img src="review2.jpg" alt="review2" className="review-image" />
                                 <p className="review-text">Семен не только углубил мои знания, но и помог открыть для себя новые методы обучения. Его регулярные занятия - это не просто обучение, а реальный путь к успеху. Спасибо за ваш профессионализм и терпение.</p>
                             </div>
 
