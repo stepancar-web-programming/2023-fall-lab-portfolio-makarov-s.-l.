@@ -1,0 +1,98 @@
+.aboutMeSection {
+    margin-top: 3rem;
+    composes: section from "../../specificStyles.css";
+}
+
+.aboutMeContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    composes: container from "../../specificStyles.css";
+}
+
+.aboutMeTitleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.teacherIcon {
+    font-size: 40px;
+    margin-right: 20px;
+    color: rgba(241, 66, 66, 0.8);
+}
+
+.aboutMeInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 30px;
+    height: 100%;
+}
+
+.aboutMeName {
+    border-bottom: 2px solid black;
+}
+
+.aboutMeTitle {
+    margin-bottom: 20px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.aboutMeImg {
+    width: 250px;
+    height: auto;
+    border-radius: 30px;
+    border: 5px solid rgba(241, 66, 66, 0.8);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .aboutMeSection {
+        margin-top: 2rem;
+    }
+    .fi-sr-chalkboard-user {
+        font-size: 30px;
+    }
+    .aboutMeName {
+        font-size: 24px;
+    }
+    .aboutMeTitle {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .aboutMeImg {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .aboutMeContainer {
+        flex-direction: column;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .fi-sr-chalkboard-user {
+        font-size: 20px;
+    }
+    .aboutMeName {
+        font-size: 20px;
+    }
+    .aboutMeTitle {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+}

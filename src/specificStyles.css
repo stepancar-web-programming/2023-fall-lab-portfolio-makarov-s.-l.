@@ -1,0 +1,38 @@
+/* Специфические стили */
+.section {
+    padding: 2rem 2rem;
+    background-color: rgb(240, 240, 240);
+}
+
+.sectionTitle {
+    font-size: 35px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 968px;
+    margin: 0 auto;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+    .section-title {
+        font-size: 28px;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}

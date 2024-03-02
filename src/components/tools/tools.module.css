@@ -1,0 +1,119 @@
+.toolsSection {
+    background-color: rgba(240, 240, 240, 0.5);
+    composes: section from "../../specificStyles.css";
+}
+
+.container {
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    composes: container from "../../specificStyles.css";
+}
+
+.toolCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.toolImgContainer {
+    width: 200px;
+    height: calc(200px * (4 / 10));
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.toolImgContainer:hover {
+    cursor: pointer;
+}
+.toolImg {
+    width: 150px;
+    margin: auto;
+}
+
+.toolDescription {
+    min-height: 90px;
+}
+.toolDescriptionTitle {
+    margin-bottom: 5px;
+}
+.active {
+    transition: 0.3s;
+    transform: scale(1.15);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px,
+        rgba(0, 0, 0, 0.2) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.1) 0px -3px 0px inset;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .toolImgContainer {
+        width: 150px;
+        height: calc(150px * (4 / 10));
+    }
+    .toolImg {
+        width: 120px;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .toolImgContainer {
+        width: 120px;
+        height: calc(120px * (4 / 10));
+    }
+    .toolImg {
+        width: 100px;
+    }
+    .container {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .toolCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        margin-right: 25px;
+    }
+    .toolImgContainer {
+        margin-bottom: 15px;
+    }
+
+    .toolImgContainer:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 450px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .toolCards {
+        width: calc(100% - 20px);
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .toolImgContainer {
+        width: 100%;
+    }
+}
