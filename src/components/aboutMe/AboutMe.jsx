@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div className={styles.aboutMeSection}>
             <div className="sectionTitle">Обо мне</div>
             <div className={styles.aboutMeContainer}>
-                <img src="aboutMe.jpg" className={styles.aboutMeImg} />
+                <img src="aboutMe.jpg" className={styles.aboutMeImg} alt="Макаров Семён" />
                 <div className={styles.aboutMeInformation}>
                     <div className={styles.aboutMeTitleContainer}>
                         <i className={`fi fi-sr-chalkboard-user ${styles.teacherIcon}`}></i>
