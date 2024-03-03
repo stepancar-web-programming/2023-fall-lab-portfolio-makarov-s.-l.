@@ -39,22 +39,23 @@
 
 a {
     text-decoration: none;
-    color: rgba(241, 66, 66, 0.5);
+    color: rgb(241 66 66 / 50%);
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
 a:hover {
-    color: rgba(230, 36, 36, 1);
+    color: rgb(230 36 36 / 100%);
 }
 
-/*=============== BREAKPOINTS ===============*/
+/* =============== BREAKPOINTS =============== */
+
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (width <= 992px) {
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
     .contactInfo,
     .socialLinks {
         flex: 1;
@@ -66,9 +67,9 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (width <= 676px) {
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (width <= 350px) {
 }

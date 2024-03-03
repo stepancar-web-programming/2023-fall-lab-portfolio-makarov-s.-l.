@@ -1,5 +1,5 @@
 .servicesSection {
-    background-color: rgb(240, 240, 240, 0.5);
+    background-color: rgb(240 240 240 / 50%);
     composes: section from "../../specificStyles.css";
 }
 
@@ -18,9 +18,9 @@
 }
 
 .serviceCard {
-    border: 2px solid rgba(241, 66, 66, 0.8);
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
-        rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+    border: 2px solid rgb(241 66 66 / 80%);
+    box-shadow: rgb(240 46 170 / 40%) 5px 5px,
+        rgb(240 46 170 / 30%) 10px 10px, rgb(240 46 170 / 20%) 15px 15px;
     border-radius: 20px;
     width: 50%;
     min-height: auto;
@@ -34,12 +34,12 @@
 
 .serviceCard:hover {
     transform: scale(1.05);
-    border: 2px solid rgb(170, 48, 48);
-    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgb(170 48 48);
+    background-color: rgb(255 255 255 / 90%);
 }
 
 .serviceCard:hover .servicesDescription {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(0 0 0 / 80%);
 }
 
 .serviceTitle {
@@ -53,28 +53,30 @@
 .servicesDescription {
 }
 
-/*=============== BREAKPOINTS ===============*/
+/* =============== BREAKPOINTS =============== */
+
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (width <= 992px) {
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
     .serviceTitle {
         font-size: 20px;
     }
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (width <= 676px) {
     .flexContainer {
         flex-direction: column;
         align-items: center;
     }
+
     .serviceCard {
         width: 90%;
     }
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (width <= 350px) {
 }

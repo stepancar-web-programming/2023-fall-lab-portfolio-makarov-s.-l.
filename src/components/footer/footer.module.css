@@ -20,7 +20,7 @@
 }
 
 .footerLink {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgb(0 0 0 / 50%);
     font-size: 30px;
     margin: 0 15px;
     text-decoration: none;
@@ -28,34 +28,36 @@
 }
 
 .footerLink:hover {
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0 0 0 / 100%);
 }
 
 .createdBy {
     margin: 0;
 }
 
-/*=============== BREAKPOINTS ===============*/
+/* =============== BREAKPOINTS =============== */
+
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (width <= 992px) {
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (width <= 576px) {
     .footerContainer {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
+
     .createdBy {
         margin-bottom: 30px;
     }
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (width <= 350px) {
 }

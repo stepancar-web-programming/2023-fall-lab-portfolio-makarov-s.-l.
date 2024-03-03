@@ -6,6 +6,7 @@
 .reviewContainer {
     composes: container from "../../specificStyles.css";
 }
+
 .slick-arrow {
     display: none !important;
 }
@@ -18,10 +19,9 @@
 
 .reviewCard {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: flex-start;
-    flex-wrap: nowrap;
-    border: 2px solid rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(0 0 0 / 20%);
     border-radius: 20px;
     padding: 10px 20px;
     background-color: white;
@@ -31,7 +31,7 @@
     text-align: center;
     font-size: 24px;
     margin-bottom: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgb(0 0 0 / 80%);
 }
 
 .reviewPersonContainer {
@@ -53,22 +53,22 @@
 .reviewText {
     padding: 0 15px;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(0 0 0 / 80%);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (width <= 992px) {
     .reviewImage {
         width: 120px;
     }
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (width <= 676px) {
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (width <= 350px) {
 }
