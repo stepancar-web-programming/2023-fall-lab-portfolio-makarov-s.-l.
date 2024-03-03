@@ -9,6 +9,6 @@ jobs:
       - name: Install Dependecies
         run: npm ci
       - name: Lint application
-        run: npm run lint
+        run: npm run eslint
       - name: StyleLint application
         run: npm run stylelint
