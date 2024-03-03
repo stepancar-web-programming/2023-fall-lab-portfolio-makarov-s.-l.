@@ -1,3 +1,4 @@
+/* Специфические стили */
 .header {
     background-color: rgba(255, 255, 255, 0.99);
     position: fixed;
@@ -8,43 +9,46 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.brand-text {
+.brandText {
     font-weight: 500;
     margin: 0 20px;
 }
 
-.brand-text i {
+.brandText i {
     position: relative;
     bottom: -2px;
 }
 
-.header-container {
+.headerContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    /* composes: container from "../../specificStyles.css"; */
+    /* Попробовал добавить свойство по-другому, внутри файла jsx */
 }
 
-.nav-list {
+.navList {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: auto;
 }
-.nav-item {
+
+.navItem {
     display: inline-flex;
 }
-.nav-link {
+
+.navLink {
     color: #333;
     padding: 15px 20px;
     font-weight: 600;
 }
 
-.nav-link:hover {
+.navLink:hover {
     color: white;
     background-color: #333;
     transition: 0.3s;
-    /* transform: scale(1.1); */
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -57,7 +61,7 @@
     .header {
         font-size: 14px;
     }
-    .nav-link {
+    .navLink {
         padding: 10px 15px;
     }
 }
@@ -66,10 +70,10 @@
     .header {
         font-size: 12px;
     }
-    .header-container {
+    .headerContainer {
         justify-content: center;
     }
-    .brand-text {
+    .brandText {
         display: none;
     }
 }

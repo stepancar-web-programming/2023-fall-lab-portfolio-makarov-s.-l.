@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./format.css";
+import styles from "./format.module.css";
 
 const Format = () => {
     const [advantages, setAdvantages] = useState([]);
@@ -21,19 +21,19 @@ const Format = () => {
     }, []);
 
     return (
-        <div className="section format-section">
-            <div className="section-title">О формате занятий</div>
-            <div className="container format-container">
-                <div className="format-video">
-                    <video src="online.mp4" autoPlay loop muted className="video-bg" />
+        <div className={styles.formatSection}>
+            <div className="sectionTitle">О формате занятий</div>
+            <div className={styles.container}>
+                <div className={styles.formatVideo}>
+                    <video src="online.mp4" autoPlay loop muted className={styles.videoBg} />
                 </div>
-                <div className="format-information-container">
-                    <p className="format-information-text">Преимущества онлайн-формата:</p>
-                    <ul className="advantages-list">
+                <div className={styles.formatInformationContainer}>
+                    <p className={styles.formatInformationText}>Преимущества онлайн-формата:</p>
+                    <ul className={styles.advantagesList}>
                         {advantages.map((advantage, index) => (
                             <li
                                 key={index}
-                                className="advantage-item animate-opacity"
+                                className={styles.advantageItem}
                                 style={{ animationDelay: `${index * 0.5}s` }}
                             >
                                 {advantage}
