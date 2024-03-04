@@ -12,6 +12,7 @@ const Reviews = () => {
         slidesToShow: 2,
         slidesToScroll: 1,
         initialSlide: 0,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 992,
