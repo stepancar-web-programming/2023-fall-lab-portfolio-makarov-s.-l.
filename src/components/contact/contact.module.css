@@ -1,0 +1,75 @@
+.contactSection {
+    margin-top: 3rem;
+    text-align: center;
+    min-height: calc(100vh - 96.8px - 48px);
+    composes: section from "../../specificStyles.css";
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    composes: container from "../../specificStyles.css";
+}
+
+.contactInfo,
+.socialLinks {
+    flex: 1;
+    max-width: 400px;
+    margin: 1rem;
+}
+
+.socialLinks h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.socialLinks ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.socialLinks li {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(241 66 66 / 50%);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: rgb(230 36 36 / 100%);
+}
+
+/* =============== BREAKPOINTS =============== */
+
+/* For large devices */
+@media screen and (width <= 992px) {
+}
+
+/* For medium devices */
+@media screen and (width <= 768px) {
+    .contactInfo,
+    .socialLinks {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .contactSection {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (width <= 676px) {
+}
+
+/* For small devices */
+@media screen and (width <= 350px) {
+}
