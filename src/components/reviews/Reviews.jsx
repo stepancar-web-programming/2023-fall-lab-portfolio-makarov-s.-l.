@@ -68,9 +68,9 @@ const Reviews = () => {
 
                     <div className={styles.reviewCardContainer}>
                         <div className={styles.reviewCard}>
-                            <h3 className={styles.reviewPersonName}>Ангелина Романова</h3>
+                            <h3 className={styles.reviewPersonName}>Аноха Никитин</h3>
                             <div className={styles.reviewPersonContainer}>
-                                <img src="review2.jpg" alt="review2" className={styles.reviewImage} />
+                                <img src="review5.jpg" alt="review5" className={styles.reviewImage} />
                                 <p className={styles.reviewText}>Семен не только углубил мои знания, но и помог открыть для себя новые методы обучения. Его регулярные занятия - это не просто обучение, а реальный путь к успеху. Спасибо за ваш профессионализм и терпение.</p>
                             </div>
                         </div>
