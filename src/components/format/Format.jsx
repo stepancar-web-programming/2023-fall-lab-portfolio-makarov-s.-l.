@@ -25,7 +25,7 @@ const Format = () => {
             <div className="sectionTitle">О формате занятий</div>
             <div className={styles.container}>
                 <div className={styles.formatVideo}>
-                    <video src="online.mp4" autoPlay loop muted className={styles.videoBg} />
+                    <video src="online.mp4" video autoplay loop muted playsinline webkit-playinginline className={styles.videoBg} />
                 </div>
                 <div className={styles.formatInformationContainer}>
                     <p className={styles.formatInformationText}>Преимущества онлайн-формата:</p>

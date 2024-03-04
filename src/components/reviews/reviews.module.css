@@ -3,7 +3,6 @@
 }
 
 .reviewContainer {
-    margin: 0 -20px;
     composes: container from "../../specificStyles.css";
 }
 
