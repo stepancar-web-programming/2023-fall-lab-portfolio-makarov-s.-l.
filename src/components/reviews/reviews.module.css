@@ -1,14 +1,10 @@
 .reviewSection {
-    margin: 0 -20px;
     composes: section from "../../specificStyles.css";
 }
 
 .reviewContainer {
+    margin: 0 -20px;
     composes: container from "../../specificStyles.css";
-}
-
-.slick-arrow {
-    display: none !important;
 }
 
 .reviewCardContainer {
