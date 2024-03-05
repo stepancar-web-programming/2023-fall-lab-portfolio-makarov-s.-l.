@@ -1,0 +1,69 @@
+.reviewSection {
+    composes: section from "../../specificStyles.css";
+}
+
+.reviewContainer {
+    composes: container from "../../specificStyles.css";
+}
+
+.reviewCardContainer {
+    padding: 0 10px;
+    display: flex;
+    justify-self: stretch;
+}
+
+.reviewCard {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.reviewPersonName {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(0 0 0 / 80%);
+}
+
+.reviewPersonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.reviewImage {
+    width: 140px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.reviewText {
+    padding: 0 15px;
+    font-size: 14px;
+    color: rgb(0 0 0 / 80%);
+}
+
+@media screen and (width <= 992px) {
+    .reviewImage {
+        width: 120px;
+    }
+}
+
+/* For medium devices */
+@media screen and (width <= 768px) {
+}
+
+@media screen and (width <= 676px) {
+}
+
+/* For small devices */
+@media screen and (width <= 350px) {
+}
